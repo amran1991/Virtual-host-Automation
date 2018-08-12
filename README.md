@@ -87,21 +87,8 @@ to delete a virtual host with custom directory name:
 ```
 $ sudo virtualhost-apache-ubuntu delete anothersite.dev my_dir
 ```
-### Localization
 
-For Apache:
-
-```bash
-$ sudo cp /path/to/locale/<language>/virtualhost.mo /usr/share/locale/<language>/LC_MESSAGES/
-```
-
-For NGINX:
-
-```bash
-$ sudo cp /path/to/locale/<language>/virtualhost-nginx.mo /usr/share/locale/<language>/LC_MESSAGES/
-```
-
-For Apache-Rhel:
+## For Apache-Rhel Usage: ##
 
 Basic command line syntax:
 
@@ -121,5 +108,19 @@ to create a new virtual host:
 
 ```bash
 $ sudo virtualhost-apache-rhel.sh wwwX.example.com 1
+```
+
+### Localization ###
+
+For Apache:
+
+```bash
+$ sudo cp /path/to/locale/<language>/virtualhost.mo /usr/share/locale/<language>/LC_MESSAGES/
+```
+
+For NGINX:
+
+```bash
+$ sudo cp /path/to/locale/<language>/virtualhost-nginx.mo /usr/share/locale/<language>/LC_MESSAGES/
 ```
 
