@@ -27,7 +27,15 @@ $ chmod +x /path/to/virtualhost-nginx-ubuntu.sh
 if you copy it without the .sh extension:
 
 ```bash
+$ sudo cp /path/to/virtualhost-apache-rhel.sh /usr/local/bin/virtualhost-apache-rhel
+```
+
+```bash
 $ sudo cp /path/to/virtualhost-apache-ubuntu.sh /usr/local/bin/virtualhost-apache-ubuntu
+```
+
+```bash
+$ sudo cp /path/to/virtualhost-nginx-ubuntu.sh /usr/local/bin/virtualhost-nginx-ubuntu
 ```
 
 ### For Global Shortcut ###
