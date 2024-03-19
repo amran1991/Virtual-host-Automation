@@ -1,9 +1,9 @@
-# Virtual-host-Automation
+# Virtual-host-Automation-of-NGINX-Apache
 
 Virtualhost Manage Script
 ===========
 
-Bash Script to allow create or delete apache/nginx virtual hosts on Ubuntu & RHEL on a quick way.
+Bash Script to allow create or delete Apache/NGINX virtual hosts on Ubuntu & RHEL on a quick way.
 
 ## Installation ##
 
